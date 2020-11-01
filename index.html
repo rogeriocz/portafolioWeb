@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rogerio Cuervo | Desarrollador web, BackEnd, Laravel.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="contenedor menu-nav">
+            <a href="#">Inicio</a>
+            <a href="#">Portafolio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Contacto</a>
+
+        </nav>
+
+        <div class="contenedor hero max">
+            <div class="contenedor-textos">
+                <h1>Rogerio Cuervo.</h1>
+                <p class="copy">Desarrollador Web, Back-End.</p>
+                <input type="button" onclick="mostrar(this)" value="Zombie" class="input submit">
+                
+            </div>
+            <img class="contenedor-imagen" src="./img/premium_15.png" alt="" class="ilustracion" id="contenedor-imagen">
+            <img class="contenedor-imagen zombie" src="./img/Asset 20@2x.png" alt="" class="ilustracion" id="contenedor-zombie" style="display: none;">
+
+        </div>
+
+
+
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </header>
+    <main>
+        <section class="contenedor seccion1">
+            <h2 class="titulo-seccion">Acerca de</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="./img/laravel.svg" alt="" class="ilustracion">
+                <div class="relatos">
+                    <div class="relato">
+                        <h3 class="n-relato">Hola, Soy Rogerio</h3>
+
+                        <p class="t-relato">Desde que comencé mi viaje como desarrollador web, me enamoré de esta profesión dedicándole gran parte de mi tiempo a programar y mejorar mis habilidades como programador.</p>
+                    </div>
+                    <div class="relato">
+                        <h3 class="n-relato">Back End</h3>
+
+                        <p class="t-relato">Unos de los lenguajes que más uso para mis proyectos está basado en PHP, lenguaje de programación que hoy en día ha cambiado mucho y mejorado, una gran parte de la web a nivel mundial se apoya de este lenguaje.</p>
+                    </div>
+                    <div class="relato">
+                        <h3 class="n-relato">Front End</h3>
+
+                        <p class="t-relato">El lenguaje que uso para la parte frontal de mis proyectos es JavaScript un lenguaje que estoy constantemente aprendiendo y mejorando mis habilidades con este divertido lenguaje.</p>
+                    </div>
+                    <div class="relato">
+                        <h3 class="n-relato">Laravel</h3>
+
+                        <p class="t-relato">Una gran parte de mis proyectos los desarrollo con Laravel, ya llevo varios años trabajando con este divertido Framework que constantemente se está actualizando y mejorando muchos aspectos de seguridad.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <!--  <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Portafolio</h2>
+                <div class="portafolio-contenedor">
+                    <div class="imagen-contenedor">
+                        <img src="img/cayel03.jpg" alt="">
+                    </div>
+                    <div class="imagen-contenedor">
+                        <div class="img-contenedor porta">
+                            <div class="contenedor-textos">
+                                <h4>cayel.org</h1>
+                                <p class="description">Proyecto de capacitación en linea para el presonal medico del Hospital Regional Minatitlan. Mexico</p>
+                            </div>
+                        </div>
+                        <!-- <img src="img/dos.jpg" alt="">
+                    </div>
+                    <div class="imagen-contenedor">
+                        <img src="img/afiliacion.jpg" alt="">
+                    </div>
+                    <div class="imagen-contenedor">
+                        <img src="img/cuatro.jpg" alt="">
+                    </div>
+                    <div class="imagen-contenedor">
+                        <img src="img/cinco.jpg" alt="">
+                    </div>
+                    <div class="imagen-contenedor">
+                        <img src="img/seis.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- <section class="contenedor">
+            <h2 class="titulo-seccion">Elige tu precio</h2>
+            <section class="table-pricing">
+                <div class="pricing">
+                    <h3 class="name-pricing">Basic</h3>
+                    <p class="price">$37</p>
+                    <h2 class="benefice">Beneficio</h2>
+                    <h2 class="benefice">Beneficio</h2>
+                    <h2 class="benefice">Beneficio</h2>
+                    <h2 class="benefice">Beneficio</h2>
+                    <a href="#" class="cta">Buy now</a>
+                </div>
+                <div class="pricing active">
+                    <h3 class="name-pricing">Ultimate</h3>
+                    <p class="price">$97</p>
+                    <h2 class="benefice">Beneficio</h2>
+                    <h2 class="benefice">Beneficio</h2>
+                    <h2 class="benefice">Beneficio</h2>
+                    <h2 class="benefice">Beneficio</h2>
+                    <a href="#" class="cta">Buy now</a>
+                </div>
+                <div class="pricing">
+                    <h3 class="name-pricing">Premium</h3>
+                    <p class="price">$137</p>
+                    <h2 class="benefice">Beneficio</h2>
+                    <h2 class="benefice">Beneficio</h2>
+                    <h2 class="benefice">Beneficio</h2>
+                    <h2 class="benefice">Beneficio</h2>
+                    <a href="#" class="cta">Buy now</a>
+                </div>
+            </section>
+        </section> -->
+    </main>
+
+    <footer>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 271.49,-50.00 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Contactanos</h2>
+            <form action="" class="formulario">
+                <input type="text" name="" id="" placeholder="Nombre" class="input">
+                <input type="email" name="" id="" placeholder="Email" class="input">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Enviar" class="input"></textarea>
+                <input type="submit" value="Enviar" class="input submit">
+            </form>
+        </div>
+
+
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -56,7 +56,9 @@ body{
     width: 350px;
 }
 
-
+.pokemon{
+    width: 264px;
+}
 
 
 
@@ -313,6 +315,9 @@ textarea{
     .zombie{
         width: 170px;
         }
+    .pokemon{
+        width: 120px;
+    }
 
     .max{
         display: flex;
@@ -325,6 +330,9 @@ textarea{
         text-justify: space-evenly;
     }
 
+    .ilustracion{
+        width: 80%;
+        margin-bottom: 1px;
     /* .menu-nav a{
         margin-left: 0;
     } */
